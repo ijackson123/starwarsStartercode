@@ -1,26 +1,45 @@
+/* phone */
+
+
+img {
+  align-self: center;
+}
+
+
+
 @import url("https://fonts.googleapis.com/css?family=Lato|Poller+One&display=swap");
+
+
+body {
+  background-color: #000000;
+}
+
+
 
 @font-face {
   font-family: "SF Distant Galaxy";
   src: url("SFDistantGalaxy.ttf") format("truetype");
 }
-/* phone */
-body {
-  background-color: #e4e7ec;
-}
-
-
 
 h1 {
   font-family: "SF Distant Galaxy";
 }
 
 
+ body{background:red;}
+
+ .row{
+  display: flex;
+  flex-direction: column;
+  }
+
+
 
 /* computer */
 @media screen and (min-width: 600px) {
-
-
-
+  body{background:blue}
+.row{
+  justify-content: space-evenly;
+  flex-direction: row;
+ display: block;
 }
-
